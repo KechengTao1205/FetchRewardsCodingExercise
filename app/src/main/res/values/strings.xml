@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fetch Rewards Coding Exercise</string>
+    <string name="empty_list_item_message">There is no item in the list</string>
+    <string name="loading_list_message">Loading items</string>
+    <string name="error_message_header">ERROR</string>
+    <string name="error_message">Sorry, an error has occurred</string>
+    <string name="error_message_retry">Retry</string>
+</resources>
