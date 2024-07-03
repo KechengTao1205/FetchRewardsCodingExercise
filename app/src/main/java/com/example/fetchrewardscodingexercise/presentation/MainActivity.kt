@@ -1,4 +1,4 @@
-package com.example.fetchrewardscodingexercise
+package com.example.fetchrewardscodingexercise.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,6 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.fetchrewardscodingexercise.viewmodel.MainViewModel
 import com.example.fetchrewardscodingexercise.ui.theme.FetchRewardsCodingExerciseTheme
 
 class MainActivity : ComponentActivity() {

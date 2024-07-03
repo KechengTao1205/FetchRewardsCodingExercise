@@ -1,7 +1,12 @@
-package com.example.fetchrewardscodingexercise
+package com.example.fetchrewardscodingexercise.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
+import com.example.fetchrewardscodingexercise.domain.FetchApi
+import com.example.fetchrewardscodingexercise.domain.FetchApiClient
+import com.example.fetchrewardscodingexercise.model.FetchItem
+import com.example.fetchrewardscodingexercise.presentation.MainUiState
+import com.example.fetchrewardscodingexercise.presentation.UIState
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -27,6 +32,12 @@ class MainViewModel(
         getFetchItems()
     }
 
+    /**
+     * getFetchItems
+     *
+     * Description:
+     *      - Use fetch api to get list of fetch item
+     */
     fun getFetchItems() {
         ioScope.launch {
             try {
@@ -49,6 +60,12 @@ class MainViewModel(
         }
     }
 
+    /**
+     * formatValidFetchItemList
+     *
+     * Description:
+     *      - get raw data from server, filter out null and empty items and group them by list id
+     */
     private fun formatValidFetchItemList(list: List<FetchItem>): List<List<FetchItem>> {
         val filterList = list.filter {
             !it.name.isNullOrEmpty() && it.name.isNotBlank()

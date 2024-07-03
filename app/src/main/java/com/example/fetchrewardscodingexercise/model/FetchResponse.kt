@@ -1,4 +1,4 @@
-package com.example.fetchrewardscodingexercise
+package com.example.fetchrewardscodingexercise.model
 
 data class FetchItem(
     val id: Int,

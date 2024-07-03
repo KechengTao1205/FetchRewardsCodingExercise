@@ -1,4 +1,4 @@
-package com.example.fetchrewardscodingexercise
+package com.example.fetchrewardscodingexercise.presentation
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -23,6 +23,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.fetchrewardscodingexercise.R
+import com.example.fetchrewardscodingexercise.model.FetchItem
+import com.example.fetchrewardscodingexercise.presentation.fetchitem.FetchItemView
 
 object MainScreen {
     @Composable

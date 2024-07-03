@@ -1,4 +1,4 @@
-package com.example.fetchrewardscodingexercise
+package com.example.fetchrewardscodingexercise.domain
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

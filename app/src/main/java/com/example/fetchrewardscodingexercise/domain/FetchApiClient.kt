@@ -1,4 +1,4 @@
-package com.example.fetchrewardscodingexercise
+package com.example.fetchrewardscodingexercise.domain
 
 object FetchApiClient {
     val fetchApi: FetchApi by lazy {

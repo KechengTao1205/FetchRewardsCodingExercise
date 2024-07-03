@@ -1,4 +1,4 @@
-package com.example.fetchrewardscodingexercise
+package com.example.fetchrewardscodingexercise.presentation.fetchitem
 
 
 import androidx.compose.foundation.background
@@ -17,6 +17,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
+import com.example.fetchrewardscodingexercise.model.FetchItem
 
 @Composable
 fun FetchItemView(

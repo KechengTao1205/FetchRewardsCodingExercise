@@ -1,5 +1,9 @@
 package com.example.fetchrewardscodingexercise
 
+import com.example.fetchrewardscodingexercise.domain.FetchApi
+import com.example.fetchrewardscodingexercise.model.FetchItem
+import com.example.fetchrewardscodingexercise.presentation.UIState
+import com.example.fetchrewardscodingexercise.viewmodel.MainViewModel
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
 import org.junit.Before
