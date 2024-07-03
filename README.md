@@ -1,4 +1,4 @@
-#Fetch Rewards Coding Exercise
+# Fetch Rewards Coding Exercise
 
 ## There are three states in the app:
 
