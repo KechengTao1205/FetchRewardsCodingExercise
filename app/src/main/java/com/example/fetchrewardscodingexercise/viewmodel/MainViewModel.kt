@@ -76,6 +76,10 @@ class MainViewModel(
             it.listId
         }.values.toList()
 
+        // The item name is display by "Item " + id
+        // so instead sort list by name we can sort list by id to make code simpler
+        // if we only want sort items by name we can use sortedWith {} in side {}
+        // we can our own logic to sort items by item.name
         val validList = groupedList.map {
             it.sortedBy { item ->
                 item.id
